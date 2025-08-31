@@ -6,3 +6,5 @@ class Solution:
 nums = [1,2,3,1]
 sol = Solution()
 print(sol.containsDuplicate(nums))
+
+# O(n) time complexity and O(n) space complexity

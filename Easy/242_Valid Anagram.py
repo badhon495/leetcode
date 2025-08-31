@@ -8,4 +8,4 @@ t = "nagaram"
 sol = Solution()
 print(sol.isAnagram(s, t))
 
-# n(log n) complexity because of the sorted function
+# n(log n) complexity because of the sorted function and O(n) space complexity
