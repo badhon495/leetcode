@@ -4,7 +4,6 @@ class Solution:
     def topKFrequent(self, nums, k: int):
         freq=Counter(nums)
         c=freq.most_common(k)
-        print(classmethod)
         return [i for i,count in c]
 
 s = Solution()
